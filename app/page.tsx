@@ -27,10 +27,10 @@ export default function Page() {
   }
 
   const downloadResume = () => {
-    // Create a dummy PDF download - replace with actual resume file
+  
     const link = document.createElement("a")
-    link.href = "/resume.pdf" // You'll need to add your actual resume file to public folder
-    link.download = "Adin_Resume.pdf"
+    link.href = "/xyz.pdf" 
+    link.download = "xyz.pdf"
     link.click()
   }
 
@@ -84,7 +84,7 @@ export default function Page() {
                   👋Hi, Im Adin
                 </h1>
                 <h2 className="text-xl font-semibold tracking-tight sm:text-2xl md:text-3xl lg:text-4xl text-muted-foreground">
-                  A Full Stack Data Scientist
+                  Data Scientist / Analyst
                 </h2>
 
                 <p className="mx-auto max-w-[700px] text-sm md:text-base lg:text-xl text-gray-500 dark:text-gray-400 mt-2 md:mt-4">

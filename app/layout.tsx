@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 
 export const metadata: Metadata = {
-  title: "Adin.dev - Data Scientist & Analyst",
+  title: "Adin's Portfolio",
   description:
     "Portfolio of Adin — showcasing projects, insights, and technical expertise in Data Science and Machine Learning.",
   generator: "v0.app",
@@ -17,8 +17,6 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
 }
-
-
 
 export default function RootLayout({
   children,
