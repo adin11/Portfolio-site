@@ -29,8 +29,8 @@ export default function Page() {
   const downloadResume = () => {
   
     const link = document.createElement("a")
-    link.href = "/xyz.pdf" 
-    link.download = "xyz.pdf"
+    link.href = "/Adin Raja Data Scientist.pdf" 
+    link.download = "Adin Raja Data Scientist.pdf"
     link.click()
   }
 
